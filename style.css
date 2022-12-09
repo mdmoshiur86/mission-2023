@@ -8,7 +8,7 @@ section{
     height: 500px;
     width: 80%;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 h1{
     font-size: 50px;
@@ -21,12 +21,7 @@ h1 span{
 h2{
     font-size: 40px;
 }
-.mission-banner h2{
-    text-align: center;
-}
-.mission-banner h2 span{
-    color: #f0932b;
-}
+ /* Top Banner Started*/
 .main-header{
     border-left: 3px solid #eb4d4b;
     padding-left: 10px;
@@ -58,3 +53,39 @@ h2{
     text-decoration: none;
     
 }
+/* Top Banner Ended*/
+
+
+/* Mission Banner Started*/
+
+.mission-banner h2{
+    text-align: center;
+}
+.mission-banner h2 span{
+    color: #f0932b;
+    
+}
+.misssion-banner-flexible{
+    display: flex;
+    margin-left: 5%;
+}
+.mission-width{
+    width: 30%;
+    padding: 40px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    
+}
+.mission-picsize{
+    width: 35%;
+}
+.mission{
+    background-color: #e8f4f6;
+}
+.Visions{
+    background-color: #f7e8f5fc;
+}
+.Goals{
+    background-color: #fdf1dc;
+}
+/* Mission Banner Ended*/
