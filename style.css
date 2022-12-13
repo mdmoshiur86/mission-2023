@@ -6,9 +6,12 @@ body{
 }
 section{
     height: 500px;
+    margin-bottom: 150px;
+}
+.section-width{
     width: 80%;
+    display: flex;
     margin: auto;
-    margin-bottom: 50px;
 }
 h1{
     font-size: 50px;
@@ -67,12 +70,11 @@ h2{
 }
 .misssion-banner-flexible{
     display: flex;
-    margin-left: 5%;
 }
 .mission-width{
     width: 30%;
-    padding: 40px 20px;
-    margin: 0 10px;
+    padding: 60px 20px;
+    margin: 0 15px;
     border-radius: 20px;
     
 }
@@ -89,3 +91,29 @@ h2{
     background-color: #fdf1dc;
 }
 /* Mission Banner Ended*/
+
+/* limit section Started*/
+
+.without-limit{
+    display: flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 4% 45%;
+    background-size: 15%;
+}
+.width-limit-pic{
+    width: 40%;
+}
+.width-limit-pic img{
+    width: 80%;
+}
+.width-limit-text{
+    width: 60%;
+    padding-top: 5%;
+}
+.width-limit-text p{
+    padding-right:15%;
+}
+
+
+/* limit section Ended*/
